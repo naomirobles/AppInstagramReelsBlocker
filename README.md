@@ -32,3 +32,6 @@ app/
 
 ## Nota importante
 Esta app requiere permisos sensibles. Úsala responsablemente y solo en tu propio dispositivo.
+
+## Descargar apk en el siguiente link
+https://drive.google.com/file/d/1Tg9FFLKmHn2NxMXE39RUln4wF29lNn3C/view?usp=sharing 
