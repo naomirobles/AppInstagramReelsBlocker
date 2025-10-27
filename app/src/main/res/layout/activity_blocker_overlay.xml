@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F44336"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_delete"
+        android:tint="#FFFFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reels_blocked_title"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reels_blocked_message"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_password"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/unlockButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unlock"
+        android:textSize="16sp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#F44336"
+        android:padding="12dp"/>
+
+</LinearLayout>

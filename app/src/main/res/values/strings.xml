@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reels Blocker</string>
+    <string name="accessibility_service_description">Este servicio monitorea Instagram para bloquear el acceso a Reels según tu configuración de horario. Requiere acceso a la pantalla para detectar cuándo estás en la sección de Reels.</string>
+    <string name="service_enabled">Servicio activado</string>
+    <string name="service_disabled">Servicio desactivado</string>
+    <string name="enable_accessibility">Habilitar Servicio de Accesibilidad</string>
+    <string name="enable_overlay">Habilitar Superposición</string>
+    <string name="set_password">Establecer Contraseña</string>
+    <string name="change_password">Cambiar Contraseña</string>
+    <string name="set_schedule">Configurar Horario</string>
+    <string name="reels_blocked_title">Reels Bloqueado</string>
+    <string name="reels_blocked_message">Los Reels están bloqueados. Podrás acceder durante tu ventana de 10 minutos programada.</string>
+    <string name="time_remaining">Tiempo restante: %s</string>
+    <string name="enter_password">Ingresa la contraseña</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="unlock">Desbloquear</string>
+    <string name="incorrect_password">Contraseña incorrecta</string>
+    <string name="password_set_success">Contraseña establecida correctamente</string>
+    <string name="schedule_set_success">Horario configurado correctamente</string>
+</resources>
